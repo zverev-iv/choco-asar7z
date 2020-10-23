@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+  <id>asar7z</id>
+  <version>1.2</version>
+    <packageSourceUrl>https://github.com/zverev-iv/choco-asar7z</packageSourceUrl>
+    <owners>zverev-iv</owners>
+    <title>asar7z (Install)</title>
+    <authors>Dec Software</authors>
+    <projectUrl>https://www.tc4shell.com/en/7zip/asar/</projectUrl>
+    <copyright>2020 Dec Software</copyright>
+    <licenseUrl>https://www.tc4shell.com/en/termsofuse/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>asar7z 7zip 7-zip  asar</tags>
+    <summary>You can use Asar7z with 7-Zip to open, modify, or create .asar archives</summary>
+    <description>Asar7z is a small plugin for the popular 7-Zip archiver. You can use Asar7z with 7-Zip to open, modify, or create .asar archives, which are used for packaging applications based on the Electron framework. </description>
+    <releaseNotes>Current version
+    
+Plugin version: 1.2
+Distribution package release date: 05 Mar 2020
+    </releaseNotes>
+    <dependencies>
+        <dependency id="7zip.install" version="19.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
